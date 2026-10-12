@@ -1,22 +1,11 @@
-# 東華大學在學與休學人數 BI Demo（Template）
+# 各縣市三階段人口比例
 
-用 AI（Claude Code）把學校公開的統計報表，做成一個可以互動篩選的 BI 網頁，並用 GitHub Pages 對外發佈。
+用內政部戶政司的縣市三階段人口及扶養比，做成一個可以互動篩選的 BI 網頁，整理成各個的觀察各縣市歷年的三階段的人口比例，並用 GitHub Pages 對外發佈。
 
-- 資料範圍：國立東華大學 111 學年度上學期 至 114 學年度上學期，共 7 個學期
-- 資料性質：公開資料，原始檔與 ETL 後的資料都放在這個 repo，歡迎直接取用
+- 主題：觀察各縣市歷年的人口組成的變化
+- 資料來源：內政部戶政司 人口統計資料《各縣市人口及扶養比(96)》下載的 Excel 檔，無修改
+- 資料期間：從 96 年至 114 年，共 18 年
 
-## 課堂流程（90 分鐘）
-
-| 段 | 內容 | 時間 |
-|---|---|---|
-| [P0](prompts/P0-開始.md) | 用這個 template 建立自己的 repo，啟動 Claude Code | 10 分 |
-| [P1](prompts/P1-ETL.md) | 用 AI 做 ETL：把一份 Excel 報表轉成整齊的 CSV，並驗證 | 12 分 |
-| [P2](prompts/P2-做出BI網頁.md) | 請 AI 做出互動 BI 網頁 | 35 分 |
-| [P3](prompts/P3-發佈.md) | push 到 GitHub，開啟 GitHub Pages | 10 分 |
-| [課後練習](prompts/課後練習.md) | 完成課堂內容、用 AI 對 PDF 做 ETL、思考休學比例的分母（不評分） | — |
-| [作業](prompts/作業.md) | 自己找資料做 BI 網頁並發佈，由 AI 評分（[評分說明](https://github.com/samsonchen/ai_workshop_assets/tree/main/chapter_2)） | — |
-
-每一段的 prompt 都可以直接複製貼到 Claude Code。
 
 ## 目錄
 
