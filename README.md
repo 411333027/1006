@@ -10,10 +10,8 @@
 ## 目錄
 
 ```
-東華大學統計資料/        原始檔（學校公告的 XLS 與 PDF，未經修改）
-  在學人數統計表/        7 個學期的在學學生人數（.xls）
-  休學人數統計表/        7 個學期的休學人數（.pdf）
-data/                    ETL 後的標準資料（CSV，UTF-8，可直接用 Excel 開）
+deta/                    原始檔（內政部戶政司 人口統計資料《各縣市人口及扶養比(96)》公告的 XLS，未經修改）      
+etl/                    ETL 後的標準資料（CSV，UTF-8，可直接用 Excel 開）
   enrollment.csv         在學人數
   leave.csv              休學人數
   dept_mapping.csv       系所對照表
